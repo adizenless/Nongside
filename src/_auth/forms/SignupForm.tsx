@@ -81,7 +81,7 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.png" alt="logo" />
+        <img src="/assets/images/logo.png" alt="logo" className="w-auto h-12 object-cover"  />
 
         <h2 className="h3-bold md:h2-bold">Создать новый аккаунт</h2>
         <p className="text-light-3 small-medium md:base-regular text-center">
