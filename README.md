@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# # Nongside Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a portfolio website which was developed with React Vite (npm create vite).
 
-Currently, two official plugins are available:
+![image](https://res.cloudinary.com/dtrp5gl4m/image/upload/v1699691345/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA5_i7ehg6.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+You can view it on the live website using this link https://nongside.vercel.app/
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+Technologies and libraries used to develop this application.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- React
+- npm create vite
+- react-dropzone
+- react-hook-form
+- react-intersection-observer
+- tailwindcss
+- zod
+- appwrite
+- typescript
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+1. Clone the repository: `git clone <https://github.com/adizenless/Nongside.git>`
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m 'Description of changes'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request
+
+## License
+
+Portfolio is [MIT licensed](https://github.com/adizenless/Nogside/blob/main/LICENSE).
+
+## Contact
+
+Email: [adizenless@gmail.com](mailto:your.email@example.com)
